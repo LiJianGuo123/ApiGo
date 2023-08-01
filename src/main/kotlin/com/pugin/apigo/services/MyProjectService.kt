@@ -1,9 +1,9 @@
-package com.github.lijianguo123.apigo.services
+package com.pugin.apigo.services
 
 import com.intellij.openapi.components.Service
 import com.intellij.openapi.diagnostic.thisLogger
 import com.intellij.openapi.project.Project
-import com.github.lijianguo123.apigo.MyBundle
+import com.pugin.apigo.MyBundle
 
 @Service(Service.Level.PROJECT)
 class MyProjectService(project: Project) {

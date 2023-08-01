@@ -9,15 +9,15 @@
     <resource-bundle>messages.MyBundle</resource-bundle>
 
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.lijianguo123.apigo.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
+        <toolWindow factoryClass="com.pugin.apigo.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
     </extensions>
 
     <applicationListeners>
-        <listener class="com.github.lijianguo123.apigo.listeners.MyApplicationActivationListener" topic="com.intellij.openapi.application.ApplicationActivationListener"/>
+        <listener class="com.pugin.apigo.listeners.MyApplicationActivationListener" topic="com.intellij.openapi.application.ApplicationActivationListener"/>
     </applicationListeners>
     
     <actions>
-        <action class="com.github.lijianguo123.apigo.MyAction" id="MyAction">
+        <action class="com.pugin.apigo.MyAction" id="MyAction">
             <add-to-group group-id="StructureViewPopupMenu" />
         </action>
     </actions>

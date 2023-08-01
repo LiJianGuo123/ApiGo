@@ -1,4 +1,4 @@
-package com.github.lijianguo123.apigo.listeners
+package com.pugin.apigo.listeners
 
 import com.intellij.openapi.application.ApplicationActivationListener
 import com.intellij.openapi.diagnostic.thisLogger

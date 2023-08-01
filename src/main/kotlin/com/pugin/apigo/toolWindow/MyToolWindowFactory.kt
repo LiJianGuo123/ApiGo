@@ -1,4 +1,4 @@
-package com.github.lijianguo123.apigo.toolWindow
+package com.pugin.apigo.toolWindow
 
 import com.intellij.openapi.components.service
 import com.intellij.openapi.diagnostic.thisLogger
@@ -8,8 +8,8 @@ import com.intellij.openapi.wm.ToolWindowFactory
 import com.intellij.ui.components.JBLabel
 import com.intellij.ui.components.JBPanel
 import com.intellij.ui.content.ContentFactory
-import com.github.lijianguo123.apigo.MyBundle
-import com.github.lijianguo123.apigo.services.MyProjectService
+import com.pugin.apigo.MyBundle
+import com.pugin.apigo.services.MyProjectService
 import javax.swing.JButton
 
 
